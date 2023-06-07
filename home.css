@@ -1,0 +1,69 @@
+/* Home page */
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Contact page */
+
+.contact {
+    margin-top: 2em;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Projects page */
+
+.projects {
+    margin-top: 2em;
+}
+
+.project {
+    width: 200px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+    .project img {
+        width: 100%;
+    }
+
+    .project h3 {
+        margin: 0;
+    }
+
+    .project p {
+        margin-top: 5px;
+    }
